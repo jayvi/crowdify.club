@@ -1,0 +1,183 @@
+.city-single{
+    margin-bottom: 30px;
+    .notigications{
+        background: #018FFB;
+        padding: 20px;
+        color: white;
+        //border-radius: 5px;
+        //margin-bottom: 20px;
+        position: relative;
+
+        #notifications-cross-button{
+            color: white;
+            background: rgba(180,180,180,0.5);
+            padding: 0px 5px;
+            border-radius: 50%;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            font-size: 15px;
+            &:hover{
+                background: rgba(100, 100, 100, 0.6);
+            }
+        }
+    }
+
+    .city-info{
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        //border-top-left-radius: 5px;
+        //border-top-right-radius: 5px;
+
+        .panel{
+            .panel-heading{
+                border-bottom: none;
+                h2{
+                    a{
+                      font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-share-box{
+        background-color: white;
+        //border-bottom-left-radius: 5px;
+        //border-bottom-right-radius: 5px;
+        padding: 20px 20px;
+        border-top: 1px solid #ccc;
+    }
+
+    .stocks-box{
+        margin-top: 20px;
+        background-color: white;
+        //border-radius: 5px;
+        padding: 0px;
+
+        table{
+            margin-bottom: 0px;
+            tr{
+                border-top: 1px solid #ccc;
+                display: table;
+                width: 100%;
+                &:first-child{
+                    border-top: none;
+                    td{
+                        &.stock-average{
+                            span{
+                                background-color: #FFBC42;
+                            }
+                        }
+                    }
+                }
+                td{
+                    border-top: none;
+                    vertical-align: middle;
+                    display: table-cell;
+                    padding: 20px 20px;
+                    //border-right: 1px solid #ccc;
+                    &:last-child{
+                        border-right: none;
+                    }
+                    &.stock-avatar{
+                        width: 20%;
+                        img{
+                            max-width: 100px;
+                        }
+                    }
+                    &.stock-average{
+                        text-align: center;
+                        width: 20%;
+                        span{
+                            background-color: #337ab7;
+                            padding: 5px 15px;
+                            color: white;
+                            -webkit-border-radius: 15px;
+                            -moz-border-radius: 15px;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #calendar{
+        background: white;
+        padding: 30px 40px;
+        //border-radius: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+
+        .fc-toolbar{
+            padding-top: 20px;
+            .fc-left,
+            .fc-right{
+                button{
+                    background-color: transparent;
+                    background: transparent;
+                    border: none;
+                    box-shadow: none;
+                    &:hover{
+                        color: #337ab7;
+                    }
+                }
+            }
+        }
+
+        .fc-view-container{
+            .fc-view{
+                .fc-head{
+                    border-top: 1px solid #ccc;
+                    th.fc-day-header {
+                        border: none;
+                    }
+
+                    td.fc-head-container {
+                        border: none;
+                    }
+
+                    .fc-row {
+                        padding: 10px 0px;
+                    }
+                }
+
+                .fc-body{
+                    height: auto;
+                    .fc-widget-content{
+                        border: none;
+                    }
+
+                    .fc-week{
+                        //border-bottom: 1px solid #ccc;
+                        &:first-child{
+                            //border-top: 1px solid #ccc;
+                        }
+
+                        .fc-day{
+                            //border-right: 1px solid #ccc;
+                            &:last-child{
+                                border-right: none;
+                            }
+                        }
+
+                        .fc-day-number{
+                            padding: 5px;
+                        }
+
+                        .fc-today{
+                            color: white;
+                            background-color: #337ab7;
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+    }
+}

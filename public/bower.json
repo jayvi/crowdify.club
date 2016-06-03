@@ -1,0 +1,41 @@
+{
+  "name": "event",
+  "version": "0.0.1",
+  "description": "Event Management",
+  "main": "main.js",
+  "keywords": [
+    "Event",
+    "Management"
+  ],
+  "authors": [
+    "Sohel"
+  ],
+  "license": "MIT",
+  "homepage": "event-management.dev",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-datepicker": "~1.4.0",
+    "croppic": "*",
+    "datetimepicker": "~2.3.4",
+    "blueimp-file-upload": "~9.11.0",
+    "dropzone": "~4.0.1",
+    "trumbowyg": "~1.1.7",
+    "iCheck": "~1.0.2",
+    "Chart.js": "~1.0.2",
+    "toastr": "~2.1.2",
+    "summernote": "~0.6.16",
+    "videojs-youtube": "~1.2.12",
+    "unibox": "~1.8.0",
+    "linkifyjs": "~1.1.7",
+    "fullcalendar": "^2.6.1",
+    "signature_pad": "^1.5.3",
+    "rrssb": "*"
+  }
+}

@@ -1,0 +1,103 @@
+/*
+ * 1. Google Font
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+/*
+ * 2.0 Global Style
+ */
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #4e4e4e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+/*
+ * 3.0 Helper Class
+ */
+
+/*
+ * 3.1 Helper Class: Margin
+ */
+
+.m-a-0 { margin:        0 !important; }
+.m-t-0 { margin-top:    0 !important; }
+.m-r-0 { margin-right:  0 !important; }
+.m-b-0 { margin-bottom: 0 !important; }
+.m-l-0 { margin-left:   0 !important; }
+.m-x-0 { margin-right:  0 !important; margin-left:   0 !important; }
+.m-y-0 { margin-top:    0 !important; margin-bottom: 0 !important; }
+.m-t-10 {margin-top: 10px}
+
+/*
+ * 3.2 Helper Class: Padding
+ */
+
+.p-a-0 { padding:        0 !important; }
+.p-t-0 { padding-top:    0 !important; }
+.p-r-0 { padding-right:  0 !important; }
+.p-b-0 { padding-bottom: 0 !important; }
+.p-l-0 { padding-left:   0 !important; }
+.p-x-0 { padding-left:   0 !important; padding-right: 0 !important; }
+.p-y-0 { padding-top:    0 !important; padding-bottom: 0 !important; }
+
+.p-y-9 {
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+}
+
+/*
+ * 3.3 Helper Class: Box Shadows
+ */
+
+.z1 {
+  box-shadow:0 0 1px -2px rgba(0,0,0,.14),0 0 2px 0 rgba(0,0,0,.098),0 0 5px 0 rgba(0,0,0,.084) !important;
+}
+
+.z2 {
+  box-shadow:0 2px 4px -1px rgba(0,0,0,.14),0 4px 5px 0 rgba(0,0,0,.098),0 1px 10px 0 rgba(0,0,0,.084)
+}
+
+.z3 {
+  box-shadow:0 3px 5px -1px rgba(0,0,0,.14),0 6px 10px 0 rgba(0,0,0,.098),0 1px 18px 0 rgba(0,0,0,.084)
+}
+
+.z4 {
+  box-shadow:0 5px 5px -3px rgba(0,0,0,.14),0 8px 10px 1px rgba(0,0,0,.098),0 3px 14px 2px rgba(0,0,0,.084)
+}
+
+.z5 {
+  box-shadow:0 8px 10px -5px rgba(0,0,0,.14),0 16px 24px 2px rgba(0,0,0,.098),0 6px 30px 5px rgba(0,0,0,.084)
+}
+
+
+/*
+ * 3.4 Helper Class: Backgrounds
+ */
+
+.bg-white {
+  background-color: #fff;
+}

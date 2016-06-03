@@ -1,0 +1,63 @@
+.signature{
+    .form-wrapper{
+        display: table;
+        width: 40%;
+        margin: auto;
+        height: 80vh;
+        .form-inner-wrapper{
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            form{
+                width: 100%;
+                display: block;
+                canvas {
+                    width: 100%;
+                    height: 40vh;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+
+                .m-signature-pad--footer {
+                    padding: 10px 0px;
+
+                    label {
+                        float: left;
+                    }
+
+                    button {
+                        float: right;
+                        margin: 0px 5px;
+                        padding: 5px 15px;
+                        border: 1px solid #ccc;
+                        background-color: transparent;
+                        border-radius: 3px;
+                        &:hover{
+                            background-color: #4e4e4e;
+                            color: white;
+                        }
+                    }
+                }
+
+                input[type=submit]{
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    margin-top: 15px;
+                    color: #4E4E53;
+                    &:hover{
+                        background-color: #4e4e4e;
+                        color: white;
+                    }
+                }
+            }
+
+            .instructions{
+                width: 100%;
+                display: block;
+                margin-top: 20px;
+                text-align: left;
+                padding-left: 20px;
+            }
+        }
+    }
+}
